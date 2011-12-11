@@ -27,7 +27,6 @@ nav li {
 }
 
 nav li a{
-  text-transform: uppercase;
   padding: 15px;
   font-size: 20px;
 }
@@ -79,4 +78,8 @@ ul.portfolio a:hover span {
 ul.portfolio span {
   display: block;
   margin: 0 auto;
+}
+
+footer {
+  text-align: center;
 }

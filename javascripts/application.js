@@ -1,5 +1,10 @@
 $(function(){
-  $('.portfolio li').each(function(){
-    $('a', this).fancybox({overlayColor: '#fff'});
+  
+  $('nav a.scrollTo').click(function(){
+    var target = $(this).attr('href');
+    $('html, body').animate({'scrollTop' : $(target).position().top}, 750);
+    return false;
   });
+  
 });
+
