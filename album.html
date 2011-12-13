@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="stylesheets/blueprint/screen.css" type="text/css" media="screen, projection">
+  <link rel="stylesheet" href="stylesheets/blueprint/print.css" type="text/css" media="print">
+  <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/blueprint/ie.css" type="text/css" media="screen, projection">
+  <![endif]-->
+	<link rel="stylesheet" type="text/css" href="javascripts/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+  <link rel="stylesheet" href="stylesheets/application.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+  <meta name = "viewport" content = "initial-scale = 0.6, user-scalable = no">
+  <title>Sophia Longo</title>
+</head>
+<body>
+  <header class="center">
+    <a href="/">SOPHIA LOnGO</a>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#">work</a></li>
+      <li><a href="#bio" class="scrollTo">bio</a></li>
+      <li><a href="#contact" class="scrollTo">contact</a></li>
+      <li><a href="#">blog</a></li>
+      <li><a href="#">store</a></li>
+    </ul>
+  </nav>
+  
+  <section id="main">
+    <ul class="album">
+      <li>
+        <img src="images/estampa1.png" alt="img1" />
+        <span>Estampa 1</span>
+      </li>
+      <li>
+        <img src="images/estampa2.jpg" alt="img2" />
+        <span>Estampa 2</span>
+      </li>
+      <li>
+        <img src="images/estampa3.jpg" alt="img3" />
+        <span>Estampa 3</span>
+      </li>
+    </ul>
+  </section>
+  
+  <footer>
+    <div id="contact">
+      <h2>Contato</h2>
+    </div>
+    <div id="bio">
+      <h2>Bio</h2>
+    </div>
+  </footer>
+  
+  <script type="text/javascript" src="javascripts/jquery-1.4.3.min.js"></script>
+  <script type="text/javascript" src="javascripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+  <script type="text/javascript" src="javascripts/application.js"></script>
+  <script type="text/javascript">
+    $('.album').fancybox({
+      overlayShow: false
+    });
+  </script>
+</body>
+</html>
+
+

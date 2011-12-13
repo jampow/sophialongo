@@ -1,5 +1,6 @@
 $(function(){
-  
+
+  //Menu fixo na tela quando rolar
   var nav    = $('nav');
   var navTop = nav.position().top * 1;
   $(window).scroll(function(){
@@ -10,14 +11,14 @@ $(function(){
     } else {
       nav.css({'position': 'relative'});
     }
-    
   });
   
+  //links com a classe scrollTo
   $('nav a.scrollTo').click(function(){
     var target = $(this).attr('href');
     $('html, body').animate({'scrollTop' : $(target).position().top}, 750);
     return false;
   });
-  
+
 });
 
