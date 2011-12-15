@@ -20,5 +20,7 @@ $(function(){
     return false;
   });
 
+  $('#filter').quicksand( $('.portfolio li') );
+
 });
 
