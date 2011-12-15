@@ -94,3 +94,11 @@ footer {
   text-align: justify;
   vertical-align: top;
 }
+
+#contact ul li {
+  display: inline;
+}
+
+#copyright {
+  font-size: 10px;
+}
