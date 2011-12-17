@@ -21,16 +21,18 @@ nav {
 
 nav ul {
   position:relative;
-  padding: 0;
+  padding: 5px 0;
   margin: 0 20px;
 }
 
 nav li {
-  display:inline;
+  display: inline;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 15px;
 }
 
 nav li a{
-  padding: 15px;
   font-size: 20px;
 }
 
@@ -39,7 +41,9 @@ section {
 }
 
 ul.portfolio{
+  overflow: hidden;
   text-align:center;
+  display: block;
 }
 
 ul.portfolio li {
@@ -47,6 +51,8 @@ ul.portfolio li {
   padding: 10px;
   margin: 0px;
   vertical-align: top;
+  height: 170px;
+  width: 150px;
 }
 
 ul.portfolio img {

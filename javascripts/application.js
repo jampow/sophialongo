@@ -20,7 +20,11 @@ $(function(){
     return false;
   });
 
-  $('#filter').quicksand( $('.portfolio li') );
+  $('#filter li').click(function(){
+    var value = $(this).attr('data-id');
+    $('.portfolio').quicksand( $('.dic li.'+value), {
+      adjustHeight: 'dynamic'
+    });
+  });
 
 });
-

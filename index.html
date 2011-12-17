@@ -25,77 +25,179 @@
       <li><a href="#contact" class="scrollTo">contact</a></li>
       <li><a href="#">shop</a></li>
     </ul>
+    
+    <ul id="filter">
+      <li data-id="all"        >Todos</li>
+      <li data-id="estampa"    >Estampas</li>
+      <li data-id="xilogravura">Xilogravuras</li>
+      <li data-id="ilustracao" >Ilustrações</li>
+    </ul>
   </nav>
   
   <section id="main">
-    <ul id="filter">
-      <li data-id="estampas"    >Estampas</li>
-      <li data-id="xilogravuras">Xilogravuras</li>
-      <li data-id="ilustracoes" >Ilustrações</li>
-    </ul>
   
-    <ul class="portfolio hide">
-      <li data-id="estampas">
+    <ul class="portfolio">
+      <li data-id="10" rel="estampa">
         <a href="album/estampa1.html" rel="estampa">
           <img src="images/estampa1-capa.png" alt="img1" />
           <span>Estampa 1</span>
         </a>
       </li>
-      <li data-id="ilustracoes">
+      <li data-id="9" rel="ilustracao">
         <a href="album.xml?name=marinheiro1.jpg" rel="marinheiro">
           <img src="images/marinheiro1-capa.jpg" alt="img1" />
           <span>Marinheiro 1</span>
         </a>
       </li>
-      <li data-id="xilogravuras">
+      <li data-id="13" rel="xilogravura">
         <a href="album.html?name=fox1.jpg" rel="fox">
           <img src="images/fox1-capa.jpg" alt="img1" />
           <span>Fox 1</span>
         </a>
       </li>
-      <li data-id="ilustracoes">
-        <a href="album.html?name=ilustracao1.jpg">
+      <li data-id="12" rel="ilustracao">
+        <a href="album.html?name=ilustracao1.jpg" rel="ilustracao">
           <img src="images/ilustracao1-capa.jpg" alt="img1" />
           <span>Ilustração 1</span>
         </a>
       </li>
-      <li data-id="ilustracoes">
+      <li data-id="11" rel="ilustracao">
         <a href="album.html?name=mulher1.jpg" rel="mulher">
           <img src="images/mulher1-capa.jpg" alt="img1" />
           <span>Mulher 1</span>
         </a>
       </li>
-      <li data-id="estampas">
+      <li data-id="8" rel="xilogravura">
+        <a href="album.html?name=fox1.jpg" rel="fox">
+          <img src="images/fox1-capa.jpg" alt="img1" />
+          <span>Fox 1</span>
+        </a>
+      </li>
+      <li data-id="7" rel="ilustracao">
+        <a href="album.html?name=ilustracao1.jpg" rel="ilustracao">
+          <img src="images/ilustracao1-capa.jpg" alt="img1" />
+          <span>Ilustração 1</span>
+        </a>
+      </li>
+      <li data-id="6" rel="ilustracao">
+        <a href="album.html?name=mulher1.jpg" rel="mulher">
+          <img src="images/mulher1-capa.jpg" alt="img1" />
+          <span>Mulher 1</span>
+        </a>
+      </li>
+      <li data-id="5" rel="estampa">
         <a href="album.html?name=estampa1.png" rel="estampa2">
           <img src="images/estampa1-capa.png" alt="img1" />
           <span>Estampa 2</span>
         </a>
       </li>
-      <li data-id="ilustracoes">
-        <a href="album.html?name=ilustracao1.jpg">
+      <li data-id="4" rel="ilustracao">
+        <a href="album.html?name=ilustracao1.jpg" rel="ilustracao">
           <img src="images/ilustracao1-capa.jpg" alt="img1" />
           <span>Ilustração 2</span>
         </a>
       </li>
-      <li data-id="xilogravuras">
+      <li data-id="3" rel="xilogravura">
         <a href="album.html?name=fox1.jpg" rel="fox2">
           <img src="images/fox1-capa.jpg" alt="img1" />
           <span>Fox 2</span>
         </a>
       </li>
-      <li data-id="ilustracoes">
+      <li data-id="2" rel="ilustracao">
         <a href="album.html?name=mulher1.jpg" rel="mulher2">
           <img src="images/mulher1-capa.jpg" alt="img1" />
           <span>Mulher 2</span>
         </a>
       </li>
-      <li data-id="ilustracoes">
+      <li data-id="1" rel="ilustracao">
         <a href="album.html?name=marinheiro1.jpg" rel="marinheiro2">
           <img src="images/marinheiro1-capa.jpg" alt="img1" />
           <span>Marinheiro 2</span>
         </a>
       </li>
     </ul>
+    
+    <ul class="dic hide">
+      <li data-id="10" class="all estampa">
+        <a href="album/estampa1.html" rel="estampa">
+          <img src="images/estampa1-capa.png" alt="img1" />
+          <span>Estampa 1</span>
+        </a>
+      </li>
+      <li data-id="9" class="all ilustracao">
+        <a href="album.xml?name=marinheiro1.jpg" rel="marinheiro">
+          <img src="images/marinheiro1-capa.jpg" alt="img1" />
+          <span>Marinheiro 1</span>
+        </a>
+      </li>
+      <li data-id="13" class="all xilogravura">
+        <a href="album.html?name=fox1.jpg" rel="fox">
+          <img src="images/fox1-capa.jpg" alt="img1" />
+          <span>Fox 1</span>
+        </a>
+      </li>
+      <li data-id="12" class="all ilustracao">
+        <a href="album.html?name=ilustracao1.jpg" rel="ilustracao">
+          <img src="images/ilustracao1-capa.jpg" alt="img1" />
+          <span>Ilustração 1</span>
+        </a>
+      </li>
+      <li data-id="11" class="all ilustracao">
+        <a href="album.html?name=mulher1.jpg" rel="mulher">
+          <img src="images/mulher1-capa.jpg" alt="img1" />
+          <span>Mulher 1</span>
+        </a>
+      </li>
+      <li data-id="8" class="all xilogravura">
+        <a href="album.html?name=fox1.jpg" rel="fox">
+          <img src="images/fox1-capa.jpg" alt="img1" />
+          <span>Fox 1</span>
+        </a>
+      </li>
+      <li data-id="7" class="all ilustracao">
+        <a href="album.html?name=ilustracao1.jpg" rel="ilustracao">
+          <img src="images/ilustracao1-capa.jpg" alt="img1" />
+          <span>Ilustração 1</span>
+        </a>
+      </li>
+      <li data-id="6" class="all ilustracao">
+        <a href="album.html?name=mulher1.jpg" rel="mulher">
+          <img src="images/mulher1-capa.jpg" alt="img1" />
+          <span>Mulher 1</span>
+        </a>
+      </li>
+      <li data-id="5" class="all estampa">
+        <a href="album.html?name=estampa1.png" rel="estampa2">
+          <img src="images/estampa1-capa.png" alt="img1" />
+          <span>Estampa 2</span>
+        </a>
+      </li>
+      <li data-id="4" class="all ilustracao">
+        <a href="album.html?name=ilustracao1.jpg" rel="ilustracao">
+          <img src="images/ilustracao1-capa.jpg" alt="img1" />
+          <span>Ilustração 2</span>
+        </a>
+      </li>
+      <li data-id="3" class="all xilogravura">
+        <a href="album.html?name=fox1.jpg" rel="fox2">
+          <img src="images/fox1-capa.jpg" alt="img1" />
+          <span>Fox 2</span>
+        </a>
+      </li>
+      <li data-id="2" class="all ilustracao">
+        <a href="album.html?name=mulher1.jpg" rel="mulher2">
+          <img src="images/mulher1-capa.jpg" alt="img1" />
+          <span>Mulher 2</span>
+        </a>
+      </li>
+      <li data-id="1" class="all ilustracao">
+        <a href="album.html?name=marinheiro1.jpg" rel="marinheiro2">
+          <img src="images/marinheiro1-capa.jpg" alt="img1" />
+          <span>Marinheiro 2</span>
+        </a>
+      </li>
+    </ul>
+    
   </section>
   
   <footer>
