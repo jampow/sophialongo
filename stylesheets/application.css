@@ -108,3 +108,18 @@ footer {
 #copyright {
   font-size: 10px;
 }
+
+#main {
+  overflow: hidden;
+}
+
+#album {
+  text-align: center;
+  list-style: none;
+}
+
+#album li {
+  display: none;
+  margin: 0 auto;
+  padding: 0;
+}
