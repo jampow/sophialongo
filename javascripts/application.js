@@ -20,6 +20,13 @@ $(function(){
     return false;
   });
 
+  //link
+  $('nav a.toggle').click(function(){
+    var target = $(this).attr('href');
+    $(target).toggle();
+    return false
+  });
+
   //QuickSand
   $('#filter li').click(function(){
     var value = $(this).attr('data-id');
@@ -42,7 +49,7 @@ $(window).load(function(){
     var main = $('#album');
 
     if (id == 'next') {
-      main.slideUp('normal', function(){
+      //main.slideUp('normal', function(){
         
         if (active.next().length == 0) {
           active.removeClass('active').hide();
@@ -50,11 +57,11 @@ $(window).load(function(){
         } else {
           active.removeClass('active').hide().next().addClass('active').show();
         }
-        main.css('height', 'auto').slideDown();
+        main.css('height', 'auto');
         
-      });
+      //});
     } else {
-      main.slideUp('normal', function(){
+      //main.slideUp('normal', function(){
       
         if (active.prev().length == 0) {
           active.removeClass('active').hide();
@@ -62,8 +69,8 @@ $(window).load(function(){
         } else{
           active.removeClass('active').hide().prev().addClass('active').show();
         }
-        main.css('height', 'auto').slideDown();
-      });
+        main.css('height', 'auto');
+      //});
     }
   });
   
