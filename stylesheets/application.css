@@ -1,3 +1,12 @@
+body {
+  background-color: rgb(207, 194, 191);
+  padding: 20px;
+}
+
+#wrapper {
+  background-color: #fff;
+}
+
 a {
   color: #444;
   text-decoration: none;
@@ -62,7 +71,7 @@ ul.portfolio img {
   
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 ul.portfolio img:hover, 
@@ -75,7 +84,7 @@ ul.portfolio a:hover img {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -khtml-border-radius: 10px;
-  border-radius: 10px;
+  border-radius: 50%;
 }
 
 ul.portfolio img:hover span, 
