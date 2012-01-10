@@ -144,3 +144,8 @@ footer {
   margin: 0 auto;
   padding: 0;
 }
+
+#album span {
+  display: block;
+  margin: 0 auto;
+}
