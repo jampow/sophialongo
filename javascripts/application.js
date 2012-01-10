@@ -1,15 +1,15 @@
 $(function(){
 
   //Menu fixo na tela quando rolar
-  var nav    = $('nav');
+  var nav    = $('nav#menu');
   var navTop = nav.position().top * 1;
   $(window).scroll(function(){
     var view = $('html, body');
     var pageTop = view.position().top * 1;
     if (navTop + pageTop < 0) {
-      nav.css({'position': 'fixed', 'top': 0});
+      nav.css({'position': 'fixed', 'top': 0, 'width': '90%'});
     } else {
-      nav.css({'position': 'relative'});
+      nav.css({'position': 'relative', 'width': '100%'});
     }
   });
   
