@@ -22,6 +22,18 @@ header {
   padding: 20px;
 }
 
+hr {
+  width: 70%;
+  margin: 20px auto;
+  background-color: rgb(207, 194, 191);
+}
+
+hr.diamond {
+  background: url(../images/diamond.png) no-repeat center;
+  height: 29px;
+  border-bottom: solid 1px rgb(207, 194, 191);
+}
+
 nav {
   text-align: center;
   background: #fff;
