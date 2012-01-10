@@ -23,7 +23,7 @@ $(function(){
   //link
   $('nav a.toggle').click(function(){
     var target = $(this).attr('href');
-    $(target).toggle();
+    $(target).slideToggle('normal');
     return false
   });
 
