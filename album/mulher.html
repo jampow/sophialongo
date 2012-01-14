@@ -7,7 +7,6 @@
   <!--[if lt IE 8]>
     <link rel="stylesheet" href="/stylesheets/blueprint/ie.css" type="text/css" media="screen, projection">
   <![endif]-->
-	<link rel="stylesheet" type="text/css" href="/javascripts/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
   <link rel="stylesheet" href="/stylesheets/application.css" type="text/css" media="screen" title="no title" charset="utf-8" />
   <meta name="viewport" content="initial-scale=0.6, user-scalable=no">
   <title>Sophia Longo</title>
@@ -31,20 +30,16 @@
     
     <section id="main">
     
-      <ul id="album">
-        <li>
-          <img src="/images/mulher1.jpg" alt="estampa2" />
-          <span>Mulher 1</span>
-        </li>
-        <li>
-          <img src="/images/mulher2.jpg" alt="estampa3" />
-          <span>Mulher 2</span>
-        </li>
-        <li>
-          <img src="/images/mulher3.jpg" alt="estampa3" />
-          <span>Mulher 3</span>
-        </li>
-      </ul>
+      <div id="album">
+        <img id="img1" src="/images/mulher1.jpg" alt="mulher1" />
+        <img id="img2" src="/images/mulher2.jpg" alt="mulher2" />
+        <img id="img3" src="/images/mulher3.jpg" alt="mulher3" />
+      </div>
+      <div id="subtitle">
+        <span id="st1">Mulher 1</span>
+        <span id="st2">Mulher 2</span>
+        <span id="st3">Mulher 3</span>
+      </div>
 
     </section>
     
@@ -83,7 +78,9 @@
   
   <script type="text/javascript" src="/javascripts/jquery-1.4.3.min.js"></script>
   <script type="text/javascript" src="/javascripts/jquery.quicksand.js"></script>
+  <script type="text/javascript" src="/javascripts/cufon-yui.js"></script>
+	<script type="text/javascript" src="/javascripts/font/PrestigeElite.font.js"></script>
+  <script type="text/javascript" src="/javascripts/jquery.cycle.js"></script>
   <script type="text/javascript" src="/javascripts/application.js"></script>
-  <script type="text/javascript" src="/javascripts/album.js"></script>
 </body>
 </html>
