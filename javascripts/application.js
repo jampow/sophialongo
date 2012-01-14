@@ -1,5 +1,7 @@
 $(function(){
 
+  Cufon.replace('.cufon');
+
   //Menu fixo na tela quando rolar
   var nav    = $('nav#menu');
   var navTop = nav.position().top * 1;
@@ -38,6 +40,7 @@ $(function(){
 });
 
 $(window).load(function(){
+
   //Album
   //$('#album li'      ).hide();
   $('#album li:first').show().addClass('active');
