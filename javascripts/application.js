@@ -46,17 +46,10 @@ $(function(){
     next:   '#next', 
     prev:   '#prev',
     before: function (curr, next, opts) {
-             //console.log(curr);
-             //console.log(next);
-             //console.log(opts.currSlide);
              curStId = $(curr).attr('id').replace('img', 'st');
              nexStId = $(next).attr('id').replace('img', 'st');
              $('#'+curStId).fadeOut(750);
              $('#'+nexStId).fadeIn( 750);
-             
-             //var index = opts.currSlide;
-             //$('#prev')[index == 0 ? 'hide' : 'show']();
-             //$('#next')[index == opts.slideCount - 1 ? 'hide' : 'show']();
            }
  
   });
