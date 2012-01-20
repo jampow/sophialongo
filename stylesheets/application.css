@@ -83,8 +83,9 @@ ul.portfolio img {
   -moz-box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
   box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
   
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%; 
+  -khtml-border-radius: 50%;
   border-radius: 50%;
 }
 
@@ -95,9 +96,9 @@ ul.portfolio a:hover img {
   -moz-box-shadow: 1px 1px 6px rgba(153,0,51,0.7);
   box-shadow: 1px 1px 6px rgba(153,0,51,0.7);
   
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -khtml-border-radius: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -khtml-border-radius: 50%;
   border-radius: 50%;
 }
 
