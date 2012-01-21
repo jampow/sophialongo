@@ -108,11 +108,6 @@ ul.portfolio a:hover span {
   color: #903;
 }
 
-ul.portfolio span {
-  display: block;
-  margin: 0 auto;
-}
-
 footer {
   text-align: center;
 }
