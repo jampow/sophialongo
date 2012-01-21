@@ -53,6 +53,7 @@ nav li {
   padding: 15px;
   cursor: pointer;
   font-size: 15px;
+  text-transform: lowercase;
 }
 
 nav li a{
