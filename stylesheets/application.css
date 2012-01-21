@@ -75,8 +75,8 @@ ul.portfolio li {
   padding: 10px;
   margin: 0px;
   vertical-align: top;
-  height: 170px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 }
 
 ul.portfolio img {
@@ -88,6 +88,9 @@ ul.portfolio img {
   -moz-border-radius: 50%; 
   -khtml-border-radius: 50%;
   border-radius: 50%;
+  
+  height: 200px;
+  width: 200px;
 }
 
 ul.portfolio img:hover, 
@@ -101,12 +104,6 @@ ul.portfolio a:hover img {
   -moz-border-radius: 50%;
   -khtml-border-radius: 50%;
   border-radius: 50%;
-}
-
-ul.portfolio img:hover span, 
-ul.portfolio li:hover span, 
-ul.portfolio a:hover span {
-  color: #903;
 }
 
 footer {
