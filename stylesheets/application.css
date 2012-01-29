@@ -113,6 +113,7 @@ footer {
 #about p {
   display: inline-block;
   width: 300px;
+  margin-top: 20px;
   padding: 0 20px;
   text-align: justify;
   vertical-align: top;
